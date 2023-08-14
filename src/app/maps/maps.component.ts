@@ -40,4 +40,14 @@ export class MapsComponent implements OnInit{
       };
     });
   }
+
+  onMapClick(event) {
+    console.log(event.latLng.toJSON())
+    /*
+    lat: 
+    1.2703146696411247
+    lng: 
+    103.84762664340819
+    */
+  }
 }
